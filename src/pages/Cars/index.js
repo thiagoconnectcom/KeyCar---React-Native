@@ -63,7 +63,9 @@ export default class Cars extends Component {
                         </View>
                         <View style={[styles.row, styles.mt24,styles.wrapButton]}>
                             <View style={styles.imgcenter}>
-                                <Image source={ButtonMyCar}/>
+                                <TouchableHighlight onPress={()=>{ this.props.navigation.navigate('BookNow')}}>
+                                    <Image source={ButtonMyCar}/>
+                                </TouchableHighlight>
                                 <Text style={styles.textCenter}>Localizar veículo</Text>
                             </View>
                             <View style={styles.imgcenter}>

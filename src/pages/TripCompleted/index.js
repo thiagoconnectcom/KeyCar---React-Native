@@ -10,7 +10,6 @@ import Cartao from '../../assets/img/figure-applepay.png';
 import ButtonBlue from '../../components/Buttons/buttonBlue';
 
 export default class TripCompleted extends Component {
-    static navigationOptions = { header: null };
 
     render() {
         return (
