@@ -25,7 +25,7 @@ const Bottom = createBottomTabNavigator({
         }
   },
   Profile:{
-      screen: Cars,
+      screen: Reverse,
       navigationOptions: {
         tabBarIcon: ({ tintColor }) => <Icon name="user-circle-o" color={tintColor} size={18}/>
     }
@@ -49,8 +49,7 @@ const Bottom = createBottomTabNavigator({
 const RootStack = createStackNavigator({ 
     Bottom,
     BookNow,
-    Trip,
-    Reverse,
+    Trip,    
     
 },
   {

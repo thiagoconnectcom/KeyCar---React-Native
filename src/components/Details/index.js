@@ -19,7 +19,7 @@ import ButtonBlue from '../Buttons/buttonBlue';
 
 export default class Details extends Component {
     static navigationOptions = { header: null };
-
+    
     render() {
         return (
             <>
@@ -61,7 +61,7 @@ export default class Details extends Component {
                         </View>
 
                         <View style={styles.button}>
-                            <ButtonBlue navigation={this.props.navigation} text="QUERO ESTE CARRO"  />
+                            <ButtonBlue text="QUERO ESTE CARRO"  />
                         </View>
 
                         <View style={styles.button}>

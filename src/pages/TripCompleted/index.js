@@ -12,7 +12,6 @@ import ButtonBlue from '../../components/Buttons/buttonBlue';
 export default class TripCompleted extends Component {
     static navigationOptions = { header: null };
 
-
     render() {
         return (
             <ScrollView>
@@ -42,7 +41,7 @@ export default class TripCompleted extends Component {
                     
                     <View style={styles.wrapButton}>
                         <Image style={styles.description} source={Description}/>
-                        <ButtonBlue text="ENVIAR FEEDBACK"/>
+                        <ButtonBlue  text="ENVIAR FEEDBACK"/>
                     </View>
                 </View>
             </ScrollView>  
